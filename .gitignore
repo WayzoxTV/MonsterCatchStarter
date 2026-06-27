@@ -1,0 +1,16 @@
+# Rojo
+sourcemap.json
+*.rbxl
+*.rbxlx
+
+# Rokit (binaires d'outils — chaque dev les réinstalle via rokit.toml)
+.rokit/
+
+# VS Code (on garde settings/extensions partagés, on ignore le reste)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db

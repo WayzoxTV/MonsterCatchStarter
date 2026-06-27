@@ -1,0 +1,11 @@
+{
+  "name": "MonsterCatchStarter",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      }
+    }
+  }
+}
