@@ -16,7 +16,13 @@ export type RarityId =
 	| "Secret"
 	| "Divine"
 
-export type MutationId = "Normal" | "Or" | "Desert" | "Foret" | "Glace" | "Lave"
+export type MutationId =
+	"Normal"
+	| "Or"
+	| "Desert"
+	| "Foret"
+	| "Glace"
+	| "Lave"
 
 -- Une espèce de créature, indépendante de sa mutation et de son niveau.
 export type CreatureSpecies = {

@@ -32,10 +32,7 @@ local NEUTRAL_MULTIPLIER = 1.0
 	l'attaquant et celui du défenseur. À utiliser dans la formule de combat :
 		degatsFinaux = degatsDeBase * ElementConfig.GetMultiplier(attaquant, defenseur)
 ]]
-function ElementConfig.GetMultiplier(
-	attackerElement: ElementType,
-	defenderElement: ElementType
-): number
+function ElementConfig.GetMultiplier(attackerElement: ElementType, defenderElement: ElementType): number
 	if attackerElement == defenderElement then
 		return NEUTRAL_MULTIPLIER
 	end
